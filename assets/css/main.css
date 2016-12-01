@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 60em;
+			width: 30em;
 		}
 
 	}
@@ -2008,7 +2008,7 @@
 /* Form */
 
 	#submit {
-		margin-top: 2%;
+		margin-top: 3%;
 	}
 
 	form {

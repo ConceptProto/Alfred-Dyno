@@ -118,16 +118,14 @@
 						<h2>You've got litterally nothing to lose...</h2>
 					</header>
 					<p>ALFRED your home!</p>
-					<form id="form">
-							  <input id="name" type="text" placeholder="NAME">
-							  <input id="email" type="text" placeholder="E-MAIL">
-					  <input id="submit" type="submit" value="GO!">
-					</form>
-
-					<form action="https://formspree.io/concept.prototyping@gmail.com" method="POST">
+					<form action="https://formspree.io/concept.prototyping@gmail.com" 
+							method="POST">
 					    <input id="name" type="text" name="name" placeholder="NAME">
 					    <input id="email" type="email" name="_replyto" placeholder="E-MAIL">
-					    <input id="submit" type="submit" value="GO!">
+					    <input type="hidden" name="_next" value="https://conceptproto.github.io/Alfred-Dyno">
+					    <input type="hidden" name="_subject" value="New submission for ALFRED" />
+					    <input type="text" name="_gotcha" style="display:none" />
+					    <input type="submit" value="Send">
 					</form>
 					<!--<ul class="actions uniform">
 						<li><a href="#" class="button special">Sign Up</a></li>-->
