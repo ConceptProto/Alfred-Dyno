@@ -2007,6 +2007,10 @@
 
 /* Form */
 
+	#submit {
+		margin-top: 20%;
+	}
+
 	form {
 		margin: 0 0 2em 0;
 	}
